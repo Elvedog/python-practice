@@ -1,0 +1,12 @@
+try:
+    
+    number = int(input("Please Enter  number: "))
+    print(number)
+
+except ZeroDivisionError as err:
+    print(err)
+except ValueError as err:
+    print(err)
+
+             
+
