@@ -1,0 +1,5 @@
+#a appends to existing file w overwrites the file
+#changing name of file can create a new file
+employee_file = open("salesman1.txt","w")
+employee_file.write("\nWriting to the end of the file")
+employee_file.close()   
