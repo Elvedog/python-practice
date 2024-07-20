@@ -1,0 +1,12 @@
+#open files in different modes "r" is read mode "w" is write "a" append "r+" reading and writing
+#readlines readable read
+employee_file = open("salesman.txt","r")
+#employeee_file.readlines() for array of input and employee_file.reaedlines()[0] for specific line
+#use for loop to readlines too
+for employee in employee_file.readlines():
+    print(employee)
+
+#print(employee_file.readlines()[0]) # checks to see if readable
+
+employee_file.close()     #make sure to close the file
+   
